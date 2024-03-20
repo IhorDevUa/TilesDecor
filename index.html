@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header-inner">
+				
+				<div class="overlay-toggle" id="overlay" onclick="closeMenu()"></div>
+                <button id="toggleBtn" onclick="toggleMenu()"><img src="img/burger.png" alt="#"></button>
+				<nav class="menu" id="menu">
+					<div class="menu-content">
+						<span class="menu-close" onclick="closeMenu()">&times;</span>
+					<a class="nav-link" href="#about"  onclick="closeMenuAndFocus()">About us</a>
+					<a class="nav-link" href="#advantages"  onclick="closeMenuAndFocus()">Advantages</a>
+					<a class="nav-link" href="#services"  onclick="closeMenuAndFocus()">Services</a>
+					<a class="nav-link" href="#works"  onclick="closeMenuAndFocus()">Our works</a>
+					<a class="nav-link" href="#reviews" onclick="closeMenuAndFocus()">Reviews</a>
+                    <a class="nav-link" href="#servicearea"  onclick="closeMenuAndFocus()">Service area</a>
+					<a class="nav-link" href="#contacts"  onclick="closeMenuAndFocus()">Contacts</a>
+					<div class="menu-icons">
+                    <a  href="#"><img src="img/instah.png" alt="#"></a>
+					<a href="#"><img src="img/fbh.png" alt="#"></a>	
+					</div>
+				</div>
+				</nav>
+				
+                <div class="header-logo"><a href="index.html"><img src="img/logo.png" alt="Logo"></a></div>
+
+                <button class="btn-order">Order</button>
+
+			</div>
+		</div>
+</header>
+
+	<section class="container title-section">
+		<div class="title-text">
+			<h1>Best of its kind Tiles & Decor</h1>
+			<p>With us, quality, economy and a guarantee of work that will leave you satisfied</p>
+			<button class="hero-btn"><img src="img/herobtn.png" alt="Button"></button>
+		</div>
+		
+
+		<div class="collage">
+			
+			  <div class="image-wrapper">
+				<div class="big">
+				  <img src="img/Container.jpg" alt="Big Image 1">
+				</div>
+				<div class="small">
+				  <img src="img/Container (1).jpg" alt="Small Image 1">
+				</div>
+			  </div>
+
+			  <div class="image-wrapper">
+				<div class="big">
+				  <img src="img/Container (2).jpg" alt="Big Image 2">
+				</div>
+				<div class="small">
+				  <img src="img/Container (3).jpg" alt="Small Image 2">
+				</div>
+			  </div>
+			
+		  </div>
+
+	</section>
+
+	<section class="about-us container" id="about">
+		<h1 class="about-title">About us</h1>
+		<div class="about-wrapper">
+			<div class="about-img"><img src="img/aboutimg.jpg" alt="#"></div>
+			<div class="about-text">
+				<p>Welcome to <span>Tiles & Decor</span><br>
+					With us you will definitely find the best products for decorating the interior of your home,
+					 the latest ceramic tiles and reliable plumbing fixtures. The catalog is constantly updated,
+					  all the author's collections correspond to trends in interior design.
+				</p>
+				<p><span>Tiles & Decor</span> is an online store with a convenient storefront.
+					We care about our clients. Therefore, we provide a huge assortment to choose
+					 from with a detailed description of each item.
+				</p>
+				<p>Why are we doing this? <br>
+					Our mission is to provide the buyer with the opportunity to 
+					choose the best products from domestic and foreign brands. With our team of professionals,
+					 complex design solutions will become pleasant interior design chores.
+				</p>
+				<p><span>Tiles & Decor</span> professionals work only for positive results:
+				</p>
+				<ul>
+					<li>attentive service to each client;</li>
+					<li>Custom order possible;</li>
+					<li>each product is certified;</li>
+					<li>prompt communication in a way convenient for you;</li>
+					<li>the opportunity to get acquainted with new products through social networks.  </li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="advantages container" id="advantages">
+		<div class="advantages-wrapper">
+		<div class="advantages-title">
+			<h1>Advantages</h1>
+			<p>Advantages that make us choose and a leader among competitors</p>
+		</div>
+		<div class="card-wrapper">
+			<div class="card">
+				<h2>Hardness</h2>
+				<p>Ceramic tiles are known for their durability and wear resistance.
+					It can withstand heavy loads and is not subject to deformation from
+					 pressure or wear.</p>
+			</div>
+			<div class="card">
+				<h2>Moisture resistance</h2>
+				<p>Ceramic tiles are impervious to water,
+					 making them ideal for use in bathrooms,
+					  kitchens and other wet areas. It is easy
+					  to wash and does not absorb moisture.</p>
+			</div>
+			<div class="card">
+				<h2>Wide selection of designs</h2>
+				<p>There are many different options for ceramic tiles in color,
+					 texture, size and design. This allows you to create a variety of
+					  design solutions for any interior.</p>
+			</div>
+			<div class="card">
+				<h2>Ease of installation</h2>
+				<p>Tiles are easy to install and process. 
+				This makes it possible to quickly and efficiently
+				 carry out repair work.</p>
+			</div>
+		</div>
+	</div>
+	<div class="btn-center">
+		<a class="advantages-more" href="advantages.html">Learn more</a>
+	</div>	 
+	</section>
+
+	<section class="services container" id="services">
+		<h1 class="about-title">Services</h1>
+		<div class="services-wrapper">
+			<div class="services-text">
+				<div class="text-item">
+					<h2>work design</h2>
+					<p>We implement design for buildings of any size. 
+						With proper design, even a small apartment can be significantly expanded,
+						 modernized and visually increased, giving it more useful space.</p>
+				</div>
+				<div class="text-item">
+					<h2>TURNKEY REPAIR</h2>
+					<p>An established management system for all stages of work allows you 
+						to meet the deadlines and complete the design without defects. We go
+						to the object, control the analogy of the design project and the real drawing,
+						and control the conformity of the color scheme.</p>
+				</div>
+				<div class="text-item">
+					<h2>SELECTION OF MATERIALS</h2>
+					<p>The selection of materials and items together with a specialist
+						is a comprehensive and profitable service for the client. This helps to purchase
+						stylistically justified and functional objects that will not stand out from the
+						general picture of your home.</p>
+				</div>
+			</div>
+			<div class="services-img"><img src="img/services.jpg" alt="#"></div>
+		</div>
+	</section>
+
+
+	<section class="our-works container" id="works">
+		<h1 class="about-title">Our works</h1>
+		<div class="gallery">
+		<div class="item">
+		  <img src="img/work1.jpg" alt="Изображение 1">
+		  <div class="overlay">
+			<h3>Interco</h3>
+			
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="img/work2.jpg" alt="Изображение 2">
+		  <div class="overlay">
+			<h3>Interco</h3>
+		
+		  </div>
+		</div>
+		<div class="item">
+			<img src="img/work3.jpg" alt="Изображение 1">
+			<div class="overlay">
+			  <h3>Interco</h3>
+			
+			</div>
+		  </div>
+		  <div class="item">
+			<img src="img/work4.jpg" alt="Изображение 2">
+			<div class="overlay">
+			  <h3>Interco</h3>
+		
+			</div>
+		  </div>
+		  <div class="item">
+			<img src="img/work5.jpg" alt="Изображение 1">
+			<div class="overlay">
+			  <h3>Interco</h3>
+			
+			</div>
+		  </div>
+		  <div class="item">
+			<img src="img/work6.jpg" alt="Изображение 2">
+			<div class="overlay">
+			  <h3>Interco</h3>
+			 
+			</div>
+		  </div>
+		</div>
+		<div class="btn-center">
+			<a class="advantages-more" href="#" >See more</a>
+		</div>	
+	  </section>
+
+	<section class="reviews container" id="reviews">
+		<h1 class="about-title">Reviews</h1>
+ 
+		<div class="slider-container">
+			<div class="slide">
+			  <img src="img/reviews.png" alt="Avatar">
+			  <div class="details">
+				<h2>Matt Cannon</h2>
+				<p>Head of Marketing</p>
+			  </div>
+			  <div class="review">
+				<p>«The visual guide will provide a view to the customer of 
+					what their website or project will end up looking like. 
+					It ensures that they are kept up to date on any developments and 
+					changes made to the structure or visuals.»</p>
+			  </div>
+			</div>
+
+			<div class="slide">
+			  <img src="img/reviews.png" alt="Avatar">
+			  <div class="details">
+				<h2>Jhon Doe</h2>
+				<p>Founder</p>
+			  </div>
+			  <div class="review">
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+					 Reiciendis nisi unde, doloribus sit sunt vitae maxime. 
+					 Enim molestias assumenda aliquam quibusdam unde minus eius?
+					  Minus.</p>
+			  </div>
+			</div>
+		  
+			<div class="arrow-container">
+				<button class="arrow left" onclick="prevSlide()" tabindex="0"></button>
+				<button class="arrow right" onclick="nextSlide()" tabindex="0"></button>
+			  </div>
+		  </div>
+	</section>
+
+	<section class="service-area container" id="servicearea">
+		<h1 class="about-title">Service area</h1>
+		<p>The spectrum of our services is wide, we work with various types of premises, houses, apartments.</p>
+		
+		<div class="grid-container">
+			<div class="big-image">
+			  <img src="img/bigarea.jpg" alt="Большая картинка">
+			  <div class="overlay-area">
+				<h2>Bathrooms</h2>
+				<p>Milk tiles with a white floor form a harmonious duo with furniture in a retro style</p>
+				<a href="#">Learn more</a>
+			  </div>
+			</div>
+			<div class="small-images">
+			  <div class="small-image">
+				<img src="img/smollarea1.jpg" alt="Маленькая картинка 1">
+				<div class="overlay-area">
+				  <h2>Halls</h2>
+				  <p>Milk tiles with a white floor form a harmonious duo with furniture in a retro style</p>
+				  <a href="#">Learn more</a>
+				</div>
+			  </div>
+			  <div class="small-image">
+				<img src="img/smollarea2.jpg" alt="Маленькая картинка 2">
+				<div class="overlay-area">
+				  <h2>Kitchens</h2>
+				  <p>Milk tiles with a white floor form a harmonious duo with furniture in a retro style</p>
+				  <a href="#">Learn more</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  <div class="btn-center">
+			<a class="advantages-more" href="#">Learn more</a>
+		</div>
+
+	</section>
+
+		<section class="container contact-us" id="contacts">
+			<div class="contact-wrapper">
+				<div class="contact-form">
+					<h1 class="about-title">Contact Us</h1>
+				<form action="/submit_form.php" method="POST">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" placeholder="John Carter" required>
+				
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" placeholder="example@email.com" required>
+				
+					<label for="phone">Phone</label>
+					<input type="tel" id="phone" name="phone" placeholder="(123) 456 - 789">
+				
+					<label for="message">Leave us message</label>
+					<textarea id="message" name="message" placeholder="Please type your message here..." required></textarea>
+				
+					<input type="submit" value="Send">
+				</form>
+			</div>
+				<div class="contact-img"><img src="img/contactimg.jpg" alt="#"></div>
+			</div>
+
+		</section>
+
+		<div class="mouse-top container">
+			 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top"></button>
+		</div>
+
+		<footer class="footer container">
+			<div class="footer-wrapper">
+			<div class="logo-wrapper">
+				<div class="footer-logo">
+					<a href="#"><img src="img/logo.png" alt="Logo"></a>
+				</div>
+				<div class="footer-icon">
+					<a href="#"><img src="img/insta.png" alt="instagram"></a>
+					<a href="#"><img src="img/fb.png" alt="Facebook"></a>
+				</div>
+			</div>
+			 <div class="info-wrapper">
+				<div class="location">
+					<div class="location-wrapper">
+						<p>Location</p>
+					<a href="#"><span><img src="img/map.png" alt="#"></span>	
+						<span>794 Mcallister St
+						San Francisco, 94102</span></a>
+					</div>
+				</div>
+
+				<div class="contacts">	
+					
+					<div class="contacts-wrapper">
+						<p>Contacts</p>
+					<div class="footer-email"><a href="#"><span><img src="img/Email.png" alt="#"></span>	
+						<span>contact@company.com</span></a></div>
+					<div class="footer-phone"><a href="#"><span><img src="img/Phone.png" alt="#"></span>	
+							<span>(123) 456 - 789</span></a></div>
+						</div>
+				</div>
+			 </div>
+			</div>
+			 
+
+			<div class="copyright">
+				Copyright © 2024 Test | All Rights Reserved 
+			</div>
+
+		</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
